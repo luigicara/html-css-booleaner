@@ -1,3 +1,4 @@
+/* regole generali */
 body {
     margin: 0;
     padding: 0;
@@ -5,9 +6,11 @@ body {
 
 main, footer {
     margin: 8px;
+    font-size: 25px;
 }
 
-.banner{
+/* regole header */
+.banner {
     background-color: #4da1ff;
     background-image: url("img/pattern.png");
     height: 180px;
@@ -18,3 +21,79 @@ main, footer {
     margin-top: 75px;
     margin-left: 10px;
 }
+
+/* regole main */
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #878787;
+}
+
+.writer{
+    color:#22ade7;
+}
+
+#date {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.tim-1 {
+    width: 53%;
+}
+
+.tim-2 {
+    width: 45%;
+}
+
+.photo-details {
+    font-size: 20px;
+    display: block;
+}
+
+.blue {
+    background-color: #1aaae6;
+    margin-top: 50px;
+
+}
+
+.blue > span {
+    color: white;
+}
+
+.azure {
+    background-color: #b2e6f2;
+}
+
+
+.tablerow > * {
+    vertical-align: middle;
+}
+
+
+.littlespan {
+    display: inline-block;
+    width: 24%;
+    vertical-align: middle;
+}
+
+.bigspan {
+    display: inline-block;
+    width: 50%;
+}
+ /* regole del footer */
+
+ .img-container {
+    position: relative;
+    margin-top: 20px;
+ }
+
+ .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
